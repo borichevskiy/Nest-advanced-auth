@@ -24,17 +24,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Application with advanced authorization. User has many roles, admin has access to manage roles(such as add role to user, ban user and so on). User spreads out static posts with images. As database my choice fell on Postgres, it's started in container. Swagger documentation available on api/docs route. 
+Development development was carried out on [Nest] - (https://github.com/nestjs/nest) - framework TypeScript starter repository.
 
 ## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
+    docker-compose build - to build project
+    docker-compose - to start
+        
 # development
 $ npm run start
 
@@ -61,12 +57,6 @@ $ npm run test:cov
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
